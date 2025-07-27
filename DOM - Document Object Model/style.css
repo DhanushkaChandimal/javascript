@@ -20,7 +20,7 @@ button:hover{
     background-color: #2980b9;
 }
 
-#container{
+#boxContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
