@@ -50,3 +50,11 @@ let x = 5;
 let y = 3;
 let sum = x + y;
 console.log("Sum = ", sum);
+
+let isGreaterThan = x > y;
+console.log("Is x greater than y?  = ", isGreaterThan);
+
+let isValid = true && false;
+console.log("Is it valid?  = ", isValid);
+isValid = true && true;
+console.log("Is it valid?  = ", isValid);
