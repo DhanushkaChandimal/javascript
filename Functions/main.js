@@ -124,3 +124,22 @@ fizzBuzz(300);
 fizzBuzz(500);
 fizzBuzz(150);
 fizzBuzz(331);
+
+// Javascript scope
+console.log("----------- \n Javascript scope \n-----------");
+
+var beatles = ["Paul", "George", "John", "Ringo"];
+
+function printNames(names) {
+    function actuallyPrintNames() {
+        for (var index = 0; index < names.length; index++) {
+            var name = names[index];
+            console.log(name + " was found at index " + index);
+        }
+         // can access name and index only because of we use var
+        console.log("name and index after the loops are " + name + index);
+    }
+    actuallyPrintNames();
+}
+
+printNames(beatles);
