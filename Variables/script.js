@@ -45,3 +45,8 @@ console.log("Age : ", age);
 console.log("Is student : ", isStudent);
 console.log("Fruits : ", fruits);
 console.log("Person : ", person);
+
+let x = 5;
+let y = 3;
+let sum = x + y;
+console.log("Sum = ", sum);
